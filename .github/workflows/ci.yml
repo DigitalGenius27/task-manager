@@ -61,7 +61,7 @@ jobs:
       - name: Build
         run: npm run build
 
-    deploy:
+  deploy:
     needs: [backend, frontend]
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
