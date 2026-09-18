@@ -1,46 +1,47 @@
-# Task Manager
+# Full Stack Open
 
-A full-stack task management application built with React, Vite, Node.js and Express.
+My exercises and projects for the Full Stack Open course by the University of Helsinki.
 
-## Features
+## Course Progress
 
-- Create tasks
-- Mark tasks as completed
-- Delete tasks
-- REST API
-- Automated backend tests
-- ESLint
-- Continuous Integration with GitHub Actions
-- Continuous Deployment to Render
+**In progress — Parts 0–4 completed.**
+
+[Full Stack Open repository](https://github.com/DigitalGenius27/FullstackOpen)
+
+## Exercises
+
+### Pokedex — CI/CD
+
+Deployed application:
+
+https://fullstack-open-ci-cd-brtp.onrender.com/
+
+Repository:
+
+https://github.com/DigitalGenius27/Fullstack-open-CI-CD
+
+### Task Manager
+
+Full-stack task management application created for Full Stack Open Exercise 21.
+
+Deployed application:
+
+https://task-manager-msi2.onrender.com/
+
+Repository:
+
+https://github.com/DigitalGenius27/task-manager
 
 ## Technologies
 
-- React
-- Vite
-- Node.js
-- Express
-- Jest
-- Supertest
-- ESLint
-- GitHub Actions
-- Render
-
-## CI/CD Pipeline
-
-The project uses GitHub Actions to:
-
-1. Install dependencies
-2. Run ESLint
-3. Run backend tests
-4. Build the frontend
-5. Deploy to Render when changes are pushed to `main`
-
-Pull requests run the CI checks but do not trigger deployment.
-
-## Full Stack Open
-
-This project was created for Full Stack Open Exercise 21.
-
-Previous CI/CD exercise:
-
-https://github.com/DigitalGenius27/Fullstack-open-CI-CD
+* JavaScript
+* React
+* Node.js
+* Express
+* MongoDB
+* REST APIs
+* Git
+* GitHub Actions
+* CI/CD
+* Testing
+* Render
