@@ -1,5 +1,6 @@
 const express = require('express')
 const cors = require('cors')
+const path = require('path')
 
 const app = express()
 
@@ -79,6 +80,12 @@ app.delete('/api/tasks/:id', (req, res) => {
 
 app.get('/health', (req, res) => {
   res.send('ok')
+})
+
+app.use(express.static(path.join(__dirname, '../frontend/dist')))
+
+app.get('/{*splat}', (req, res) => {
+  res.sendFile(path.join(__dirname, '../frontend/dist/index.html'))
 })
 
 const PORT = process.env.PORT || 5001
